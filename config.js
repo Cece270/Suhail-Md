@@ -24,9 +24,9 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://gi
 global.caption = process.env.CAPTION || global.caption || "ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ" 
 
 
-global.devs = "447341776968" // Developer Contact
+global.devs = "2349166401537" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null,447341776968";
-global.owner= process.𝚴𝐔𝐂𝚵𝐋𝚵𝐒𝚻𝚰𝚫𝐋 ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "447341776968";
+global.owner= process.𝐉𝐧𝐫𝐆𝐞𝐧𝐭𝐮𝐮 ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "447341776968";
 
 
 
@@ -49,14 +49,14 @@ global.waPresence= process.env.WAPRESENCE ||  "null" ; // 'unavailable' | 'avail
 //========================= [ AUTO READ MSGS & CMDS ] =========================\\
 global.readcmds = process.env.READ_COMMAND || "false"
 global.readmessage = process.env.READ_MESSAGE || "false"
-global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null,447xxxxxxxx";
+global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null,234xxxxxxxx";
 
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
 global.read_status = process.env.AUTO_READ_STATUS || "false"
 global.save_status = process.env.AUTO_SAVE_STATUS || "false"
-global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,447xxxxxxxx";
-global.read_status_from =  process.env.READ_STATUS_FROM  ||  "447341776968,447xxxxxxxx";
+global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,234xxxxxxxx";
+global.read_status_from =  process.env.READ_STATUS_FROM  ||  "2349166401537,234xxxxxxxx";
 
 global.api_smd = "https://api-smd.onrender.com" //  || "https://api-smd-1.vercel.app" // expires
 global.scan = "https://suhail-md-vtsf.onrender.com";
@@ -72,10 +72,10 @@ module.exports = {
   VERSION : process.env.VERSION || "1.3.8",
   caption : global.caption || "" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
-  author : process.env.PACK_AUTHER|| "𝚴𝐔 𝐂𝚵𝐋𝚵𝐒𝚻𝚰𝚫𝐋",
+  author : process.env.PACK_AUTHER|| "𝐉𝐧𝐫 𝐆𝐞𝐧𝐭𝐮𝐮",
   packname: process.env.PACK_NAME || "",
-  botname : process.env.BOT_NAME  || "smallbutmighty",
-  ownername:process.env.OWNER_NAME|| "𝚴𝐔 𝐂𝚵𝐋𝚵𝐒𝚻𝚰𝚫𝐋",
+  botname : process.env.BOT_NAME  || "𝐰𝐫𝐞𝐜𝐤𝐞𝐫",
+  ownername:process.env.OWNER_NAME|| "𝐉𝐧𝐫 𝐆𝐞𝐧𝐭𝐮𝐮",
 
 
   errorChat : process.env.ERROR_CHAT || "",
